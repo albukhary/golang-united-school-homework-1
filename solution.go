@@ -7,5 +7,5 @@ import (
 )
 
 func GetMessage() string {
-	return fmt.Sprintf("Hello %v!", emoji.CodeMap()[":world_map:"])
+	return fmt.Sprint("Hello ", emoji.CodeMap()[":world_map:"], "!")
 }
